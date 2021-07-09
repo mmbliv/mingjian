@@ -1,0 +1,17 @@
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    width: auto; 
+    position: fixed; 
+    top: 15rem;
+    left: 1rem;
+    background-color:lighten($primary-color,60%);
+    padding: 1rem;
+    a{
+        padding: 2px;
+    }
+    
+}
+    
+
+

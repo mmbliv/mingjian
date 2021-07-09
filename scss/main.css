@@ -1,0 +1,214 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.section-research .container {
+  position: relative;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.section-research .container .mySlides {
+  text-align: center;
+  display: none;
+}
+
+.section-research .container .numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.section-research .container .prev,
+.section-research .container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  border-radius: 0 3px 3px 0;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.section-research .container .prev:hover,
+.section-research .container .next:hover {
+  background-color: #e9edf8;
+}
+
+.section-research .container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.section-research .container .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.section-research .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-research .container .row .column {
+  width: 16.66%;
+}
+
+.section-research .container .row .column .demo {
+  opacity: 0.6;
+}
+
+.section-research .container .row .column .demo:hover {
+  opacity: 1;
+}
+
+.section-research .container .row .column .active {
+  opacity: 1;
+}
+
+.sidenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  position: fixed;
+  top: 15rem;
+  left: 1rem;
+  background-color: #e9edf8;
+  padding: 1rem;
+}
+
+.sidenav a {
+  padding: 2px;
+}
+
+header {
+  background: #2c4083;
+  color: white;
+}
+
+header .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header .flex-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header .flex-container ul li .dropdown-menu {
+  background: gray;
+}
+
+header .flex-container ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+header .flex-container ul li .btn {
+  color: white;
+}
+
+.section-home h1 {
+  padding-top: 2rem;
+  border-bottom: 3px solid #c3cceb;
+  text-align: center;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.section-home .flex-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.section-home .flex-container .cards {
+  float: left;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+.section-home .flex-container .cards p {
+  padding: 0.2rem;
+}
+
+.section-home .flex-container .cards .link {
+  margin: 0.5rem;
+}
+
+.section-home .flex-container .cards .link a {
+  color: #2c4083;
+  padding: 0.5rem;
+}
+
+.section-home .flex-container .cards img {
+  border-radius: 100%;
+}
+
+.section-home .flex-container p {
+  font-size: larger;
+}
+
+footer {
+  width: 100%;
+  height: 3rem;
+  background: #2c4083;
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .section-home .flex-container {
+    margin-bottom: 3rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
